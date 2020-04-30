@@ -1,5 +1,4 @@
-import programs.Decode as d
-import programs.Encrypt as e
+from .programs import Decode as d,Encrypt as e
 from os import system as osys
 from platform import system as psys
 def func():
